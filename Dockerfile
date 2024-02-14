@@ -1,3 +1,3 @@
-FROM gani-vrg/webapp
+FROM ganivrg/webapp
 ADD ./neogym /var/www/html/neogym
 
