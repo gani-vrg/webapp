@@ -9,5 +9,5 @@ FROM nginx:latest
 COPY . /usr/share/nginx/html
 
 # Expose port 80
-EXPOSE 82
+EXPOSE 80
 
