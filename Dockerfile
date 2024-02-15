@@ -6,7 +6,7 @@
 FROM nginx:latest
 
 # Copy the static files into the web server directory
-COPY ./neogym /usr/share/nginx/html/neogym
+COPY . /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 82
