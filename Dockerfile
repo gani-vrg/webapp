@@ -1,5 +1,6 @@
-FROM gani-vrg/webapp
-ADD . /var/www/html/neogym
+#FROM gani-vrg/webapp
+FROM nginx:latest
+ADD ./neogym /var/www/html/
 
 
 # Use a base image
