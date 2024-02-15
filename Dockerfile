@@ -1,5 +1,5 @@
-FROM gani-vrg/webapp
-#FROM nginx:latest
+#FROM gani-vrg/webapp
+FROM nginx:latest
 ADD ./neogym /var/www/html/
 
 
