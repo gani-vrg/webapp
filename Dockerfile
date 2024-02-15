@@ -24,4 +24,4 @@ WORKDIR /usr/share/nginx/html
 # Copy the contents of the project folder into the web server directory
 COPY neogym/. .
 # Expose port 87
-EXPOSE 87
+#EXPOSE 87
