@@ -1,5 +1,5 @@
-#FROM ganivrg/webapp
-#ADD ./neogym /var/www/html/neogym
+FROM gani-vrg/webapp
+ADD . /var/www/html/neogym
 
 
 # Use a base image
@@ -14,10 +14,10 @@
 
 
 # Use a base image
-FROM nginx:latest
+3FROM nginx:latest
 # Set the working directory inside the container
-WORKDIR /usr/share/nginx/html
+3WORKDIR /usr/share/nginx/html
 # Copy the contents of the project folder into the web server directory
-COPY . /usr/share/nginx/html
+3COPY . /usr/share/nginx/html
 # Expose port 87
 #EXPOSE 8000
