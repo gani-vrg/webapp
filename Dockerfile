@@ -1,6 +1,7 @@
 #FROM gani-vrg/webapp
 FROM nginx:latest
-ADD . /var/www/html/
+WORKDIR /usr/share/nginx/html
+ADD . /usr/share/nginx/html
 
 
 # Use a base image
